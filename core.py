@@ -8,7 +8,7 @@ from langchain.vectorstores import Chroma
 from langchain.prompts.prompt import PromptTemplate
 from langchain.embeddings import OpenAIEmbeddings
 
-os.environ["OPENAI_API_KEY"] = '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'
+os.environ["OPENAI_API_KEY"] = ''
 persist_directory='data/chroma/'
 
 data_science_platform_dev_df = pd.read_csv('data/data_science_platform_dev_df.csv')
