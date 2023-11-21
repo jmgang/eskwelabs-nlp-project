@@ -3,8 +3,8 @@ import streamlit as st
 from streamlit_chat import message
 from core import retrieve_job_information, retrieve_job_ids
 
-st.title("NLP Sprint Project")
-st.caption("by: Eswelabs The Explorers")
+st.title("Engineering Jobs Assistant Chatbot")
+st.caption("by: Eskwelabs' The Explorers")
 st.image("https://www.creativefabrica.com/wp-content/uploads/2020/05/16/Write-a-resume-and-cv-to-apply-for-job-Graphics-4132681-1.jpg")
 st.divider()
 
